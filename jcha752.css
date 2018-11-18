@@ -1,0 +1,485 @@
+/* Name: Jimmy Chun Yew Chan*/
+/* ID: 8302265*/
+/* UPI: JCHA752*/
+
+#compsciLogo{
+    float: left;
+    margin-left: 0;
+    margin-bottom: 1%;
+}
+
+#compsci-logo {
+    display: inline-block;
+    width: 70px;
+    padding-right: 24px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.compsciDepartContent {
+	padding: 20px 20px 0;
+	margin: 0 auto;
+}
+
+header {
+	padding: 0 20px !important;
+}
+
+#computersciHeading {
+	font-size: 50px;
+	width: 100%;
+    color: #0E1E40;
+	text-align: center;
+	padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+#Uoa-Information p, footer p{
+    font-size: 15px;
+    text-align: center;
+    color: #0E1E40;
+}
+
+#compsciHomePage p, footer p {
+    text-align: center;
+}
+
+#compsciHomeSubtitle{
+    font-size: 25px;
+    text-align: center;
+    color: #0E1E40;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media all and (min-width: 780px) {
+    .compsciDepartContent {
+        padding: 20px 0px 0;
+    }
+
+	header {
+		padding: 0 100px !important;
+	}
+
+	#computersciHeading {
+        font-size: 55px;
+        padding-top: 50px;
+
+	}
+}
+
+@media all and (min-width: 945px) {
+	header nav {
+		display: inline-block;
+	}
+
+	#compsci-logo {
+		width: 60px;
+	}
+}
+
+@media all and (min-width: 983px) {
+	#compsci-logo {
+		width: 63px;
+	}
+}
+
+#headingText{
+	text-align: center;
+	padding-top: 10px;
+	color: #2C3B4F;
+}
+
+body {
+  margin: 10px;
+  background-color: #e08b39;
+}
+
+#news{
+  display: none;
+}
+
+#itemlist {
+    display: none;
+}
+
+#register {
+    display: none;
+}
+
+#notices{
+  display: none;
+}
+
+#uoaCompsciDepartnavbar ul {
+    list-style-type: none;
+	margin: 4%;
+	padding: 9.5px;
+	overflow: hidden;
+	background-color: #0E1E40;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+ul.uoaCompsciNavBar li {
+    float: left;
+}
+
+ul.uoaCompsciNavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+}
+
+ul.uoaCompsciNavBar li a:hover:not(.active) {
+  background-color: #526284;
+  margin: 2px;
+  cursor: pointer;
+}
+
+ul.uoaCompsciNavBar li a.active {
+  background-color: #526284;
+  cursor: pointer;
+  margin: 2px;
+}
+
+ul.uoaCompsciNavBar li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px){
+    ul.uoaCompsciNavBar li.right,
+    ul.uoaCompsciNavBar li {float: none;}
+}
+
+table {
+    font-size: 18px;
+    width: 80%;
+    border: 2px solid #EDEDED;
+}
+
+th, td {
+    padding: 10px;
+    color: #0E1E40;
+}
+
+.computerSciencePhoto{
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.compsciNewsFeedTitle a {
+	color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsDescription {
+	border-bottom: 2px solid #ededed;
+}
+
+.newsDateTime {
+	text-align: right;
+}
+
+.compsciNoticesFeedTitle a {
+	color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.noticesDescription {
+	border-bottom: 2px solid #ededed;
+}
+
+.noticesDateTime {
+	text-align: right;
+}
+
+#compsciStaff{
+    display: none;
+}
+
+#compsciGuestbook{
+    display: none;
+}
+
+#courses{
+    display: none;
+}
+
+#compsciDepartLogin{
+    display: none;
+}
+
+#loginAuthentication{
+    display: none;
+}
+
+#compsciAddressField {
+    width: 90%;
+    padding: 15px 30px;
+    margin: 8px 0;
+	padding-left: 30px;
+    display: inline-block;
+    border: 1px solid #fab16b;
+    box-sizing: border-box;
+}
+
+#compsciUsernameField {
+    width: 90%;
+    padding: 15px 30px;
+    margin: 8px 0;
+	padding-left: 30px;
+    display: inline-block;
+    border: 1px solid #fab16b;
+    box-sizing: border-box;
+}
+
+#compsciPasswordField {
+    width: 90%;
+    padding: 15px 30px;
+    margin: 8px 0;
+	padding-left: 30px;
+    display: inline-block;
+    border: 1px solid #fab16b;
+    box-sizing: border-box;
+}
+
+#formCompsciRegister label {
+	padding-left: 30px;
+}
+
+#formCompsciRegister {
+	text-align: center;
+}
+
+#alignCompsciAddress {
+	text-align: left;
+	color: 0E1E40;
+}
+
+#alignCompsciUsername {
+	text-align: left;
+	color: 0E1E40;
+}
+
+#alignCompsciPassword {
+	text-align: left;
+	color: w0E1E40hite;
+}
+
+#registerButton {
+	background-color: #0E1E40;
+	border: none;
+	color: #FFFFFF;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#alignRegisterForm {
+	text-align: right;
+	color: white;
+	padding: 15px 30px;
+}
+
+#register{
+	background-color: #fab16b;
+	max-width: 45%;
+    text-align: center;
+	padding-bottom: 25px;
+	border-radius: 10px;
+}
+
+.compsciStaffPhoto {
+	width: 200px;
+	text-align: center;
+	border-top: 2px solid #ededed;
+	border-right: 2px solid #ededed;
+    padding: 7px 0 0;
+}
+
+.uoaStaffName {
+	border-top: 2px solid #ededed;
+    text-align: center;
+    color: #0E1E40;
+    font-style: bold;
+}
+
+.uoaStaffContact {
+	width: 200px;
+	border-top: 2px solid #ededed;
+	border-left: 2px solid #ededed;
+    text-align: center;
+    font-size: 35px;
+}
+
+.compsciGoodiesImage {
+	width: 250px;
+	text-align: center;
+	border-top: 2px solid #ededed;
+	border-right: 2px solid #ededed;
+    padding: 7px 0 0;
+}
+
+.compsciGoodiesTitle {
+	border-top: 2px solid #ededed;
+    text-align: center;
+    color: #0E1E40;
+    font-style: bold;
+}
+
+.compsciGoodiesDownload {
+	width: 200px;
+	border-top: 2px solid #ededed;
+	border-left: 2px solid #ededed;
+    text-align: center;
+    font-size: 18px;
+}
+
+#compsciGoodiesSearchBar {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 75.7%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+a:link  {
+    color: #0E1E40;
+    text-decoration: none;
+} 
+a:visited {
+    color: #0E1E40;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0E1E40;
+    text-decoration: none;
+}
+
+a:active {
+    color: #0E1E40;
+    text-decoration: none;
+} 
+
+img.staffImage {
+  border-radius: 50px;
+}
+
+#footerCopyRight{
+	text-align: center;
+	padding: 50px;
+}
+
+.compsciCoursesTitle {
+	color: #000000;
+    font-weight: bold;
+}
+
+.compsciCourseDescription {
+    border-bottom: 2px solid #ededed;
+    text-align: justify;
+}
+
+.compsciCoursePoint {
+    text-align: right;
+    font-weight: bold;
+}
+
+#compsciGuestbook {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#compsciGuestbook p {
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+#compsciGuestbook h3 {
+	font-size: 24px;
+}
+
+#compsciStudentComment {
+	width: 80%;
+	height: 250px;
+	font-size: 20px;
+	resize: none;
+	margin: 20px auto;
+	border: none;
+}
+
+#compsciStudentInput {
+	text-align: center;
+    border-radius: 0px;
+}
+
+#compsciStudentInput label, #compsciStudentInput input, #compsciStudentInput a {
+	font-size: 20px;
+	display: inline-block;
+}
+
+#customerName:focus, #compsciStudentInput input:focus {
+	box-shadow: 0 0 5px #51CBEE;
+}
+
+#compsciStudentInput input {
+	border: none;
+}
+
+#compsciStudentInput p {
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#guestBookHeading{
+	padding-left: 10%;
+    padding-top: 10px;
+    font-size: 20px;
+	color: #0E1E40;
+}
+
+#compsciRecentComments{
+    padding-left: 10%;
+	color: #0E1E40;
+}
+
+#compsciStudentName{
+	color: #0E1E40;
+}
+
+#compsciStudentGuestBook{
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+#compsciStudentName{
+	text-align: center;
+	color: #0E1E40;
+}
+
+.compsciCourseDescriptionParagraphStyle {
+    padding-top: 10px;
+}
+
+.compsciCourseDescriptionParagraphStyleElse {
+    padding-bottom: 10px;
+}
+
+.compsciCourseRestrictionParagraphStyle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

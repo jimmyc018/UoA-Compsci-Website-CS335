@@ -1,0 +1,118 @@
+<!--Name: Jimmy Chun Yew Chan*/
+    ID: 8302265
+    UPI: JCHA752-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Computer Science @ UOA</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jcha752.js"></script>
+    <link href="jcha752.css" rel="stylesheet"/>
+    <link rel="icon" href="https://i.imgur.com/zFJnKju.png" type="image/png" sizes="16x16">
+</head>
+
+<!-- HTML Body and Nav-bar Implementation -->
+<body>
+    <header id="navigation-page">
+        <div id="compsciLogo">
+            <img id="compsci-logo" src="http://redsox.uoa.auckland.ac.nz/ups/logo.svg" alt="Computer Science Logo"/>
+        </div>
+        <div id="uoaCompsciDepartnavbar">
+            <ul class="uoaCompsciNavBar">
+                <li><a onclick="compsciHomeDisplay()">Home</a></li>
+                <li><a onclick="compsciCoursesDisplay()">Courses</a></li>
+                <li><a onclick="compsciStaffDisplay()">Staff</a></li>
+				<li><a onclick="compsciNewsDisplay()">News</a></li>
+                <li><a onclick="compsciNoticesDisplay()">Notices</a></li>
+                <li><a onclick="compsciRegisterDisplay()">Register</a></li>
+                <li><a onclick="compsciGoodiesDisplay()">Goodies</a></li>
+                <li><a onclick="compsciGuestbookDisplay()">Guest Book</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Computer Science Main Heading -->
+    <h1 id="computersciHeading" class="compsciDepartContent">Computer Science @ UOA</h1>
+
+    <!-- Computer Science Home Page -->
+	<div id="compsciHomePage" class="compsciDepartContent">
+        <p id="compsciHomeSubtitle">Welcome to Computer Science Department</p>
+        <div id="Uoa-Information" class="compsciDepartContent">
+            <p>Welcome to New Zealand's leading computer science department. We pride ourselves on the excellence of our staff and our students.</p>
+            <p>The University of Auckland is the largest university in New Zealand, located in the country's largest city, Auckland. It is the highest-ranked</p>
+            <p>university in the country, being ranked 81st worldwide in the 2016/17 QS World University Rankings</p>
+        </div>
+        <img class="computerSciencePhoto" src = "https://i.imgur.com/gXSm5Mf.png" alt="Compsci Department Image"/> <!-- Compsci Department Photo -->
+    </div>
+    
+    <!-- Computer Science UOA Course Page -->
+    <div id="courses" class="compsciDepartContent">
+        <table id="coursesTable" align="center"></table>
+    </div>
+
+    <!-- Computer Science UOA Staff Page -->
+    <div id="compsciStaff" class="compsciDepartContent">
+        <table id="compsciStaffTable" align="center"></table>
+    </div>
+
+    <!-- Computer Science UOA Notice Page -->
+	<div id="news" class="compsciDepartContent">
+		<table id="newsTable" align="center"></table>
+    </div>
+    
+    <!-- Computer Science UOA Notice Page -->
+	<div id="notices" class="compsciDepartContent">
+		<table id="noticesTable" align="center"></table>
+    </div>
+
+    <!-- Computer Science UOA Register Page -->
+	<div id="register" class="compsciDepartContent">
+        <form id="register1" onsubmit = "compsciRegister()" action = "">
+            <div id="formCompsciRegister">
+                <p id="alignCompsciUsername"><label for="compsciUsernameField">Username *</label></p>
+                <input type="text" placeholder="Enter your Username" id="compsciUsernameField"/>
+                <p id="alignCompsciPassword"><label for="compsciPasswordField">Password *</label></p>
+                <input type="password" placeholder="Enter your Password" id="compsciPasswordField"/>
+                <p id="alignCompsciAddress"><label for="compsciAddressField">Address *</label></p>
+                <input type="text" placeholder="Enter your Address" id="compsciAddressField"/>
+                <div>
+                    <p id="alignRegisterForm"><button onsubmit="compsciRegister()" id="registerButton"><p>Register</p></button></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Computer Science UOA Goodies Page -->
+	<div id="itemlist" class="compsciDepartContent">
+        <div id="searchGoodies" align="center">
+            <input type="text" id="compsciGoodiesSearchBar" onkeyup="compsciGoodiesSearchFunction()" placeholder="Search for Softwares......">
+        </div>       
+		<table id="itemlistTable" align="center"></table>
+    </div>
+
+    <!-- Computer Science UOA Guest Book Page -->
+    <div id="compsciGuestbook" class="compsciDepartContent">
+        <p id="guestBookHeading">Write a comment on the Compsci UOA Guest Book</p>
+        <form id="compsciStudentInput">
+            <textarea rows="5" placeholder="Type your comments here..." id="compsciStudentComment"></textarea>
+            <div>
+                <label id="customerName" for="compsciStudentName">Enter Your First Name</label>
+                <input type="customerText" placeholder="Type your fullname here..." id="compsciStudentName" />
+                <a onclick="postCompsciGuestBook()"><p>&#10003;</p></a>
+            </div>
+        </form>
+        <h3 id="compsciRecentComments">Computer Science Department Recent Comments:</h3>
+        <div id="compsciStudentGuestBook"></div>
+    </div>
+
+    <!-- Computer Science UOA Footer -->
+    <div id="footerCopyRight" class="compsciDepartContent">
+        <footer>
+            <p>&copy; Computer Science Department 2018 by Jimmy Chan. All rights reserved.</p>
+        </footer>
+    </div>    
+
+</body>
+</html>
